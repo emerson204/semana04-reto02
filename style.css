@@ -17,17 +17,16 @@ img {
 .contenedor {
   width: 23.438rem;
   margin: 0 auto;
-}
 
-.imagen img {
-  border-radius: 0.5rem 0.5rem 0 0;
+  /*Con esto ya se le puede dar borde a todo el contenedor , porque pone todo debajo el contenido y la imagen del contenedor y oculta lo que sobresale */
+  overflow: hidden;
+  border-radius: 0.5rem;
 }
 
 .info {
   background-color: hsl(244, 38%, 16%);
   padding: 2rem 4rem;
   text-align: center;
-  border-radius: 0 0 0.5rem 0.5rem;
 }
 
 .heading {
